@@ -1,2 +1,2 @@
 # lintcode-python
-Lintcode answers by using Python.
+[Lintcode](http://www.lintcode.com/) answers by using Python.
