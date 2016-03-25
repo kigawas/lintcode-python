@@ -6,4 +6,4 @@ class Solution:
     """
     def anagram(self, s, t):
         # write your code here
-        return sorted(list(s)) == sorted(list(t))
+        return sorted(s) == sorted(t)
