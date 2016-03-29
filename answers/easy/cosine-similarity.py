@@ -12,8 +12,8 @@ class Solution:
         s = 0
         for a, b in zip(A, B):
             s += a * b
-        sA = sum(map(lambda x: x * x, A))**0.5
-        sB = sum(map(lambda x: x * x, B))**0.5
+        sA = sum([x * x for x in A])**0.5
+        sB = sum([x * x for x in B])**0.5
         if sA == 0 or sB == 0:
             return 2.0000
         return s / (sA * sB)
