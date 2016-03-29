@@ -17,10 +17,10 @@ class Solution:
             ah = ah * B + ord(a[i])
             bh = bh * B + ord(b[i])
 
-        for i in range(0, bl-al+1):
+        for i in range(0, bl - al + 1):
             if ah == bh:
                 return i
             if i + al < bl:
-                bh = bh*B + ord(b[i+al]) - ord(b[i]) * t
+                bh = bh * B + ord(b[i + al]) - ord(b[i]) * t
 
         return -1

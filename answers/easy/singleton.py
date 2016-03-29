@@ -2,6 +2,7 @@ class Solution:
     # @return: The same instance of this class every time
     class __Solution:
         pass
+
     ins = None
 
     @classmethod

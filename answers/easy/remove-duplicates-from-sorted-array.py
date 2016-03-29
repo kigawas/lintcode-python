@@ -3,6 +3,7 @@ class Solution:
     @param A: a list of integers
     @return an integer
     """
+
     def removeDuplicates(self, A):
         # write your code here
         if A == []:
@@ -12,4 +13,4 @@ class Solution:
             if A[index] != A[i]:
                 index += 1
                 A[index] = A[i]
-        return index+1
+        return index + 1

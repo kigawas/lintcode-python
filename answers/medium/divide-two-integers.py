@@ -34,7 +34,7 @@ class Solution:
             a = a
             b = -b
             positive = False
-        result = int(math.pow(2, math.log(a, 2)-math.log(b, 2)))
+        result = int(math.pow(2, math.log(a, 2) - math.log(b, 2)))
         if result > MAX:
             result = MAX
         if positive:

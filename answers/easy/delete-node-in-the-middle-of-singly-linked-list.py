@@ -6,6 +6,8 @@ class ListNode(object):
         self.val = val
         self.next = next
 """
+
+
 class Solution:
     # @param node: the node in the list should be deleted
     # @return: nothing
